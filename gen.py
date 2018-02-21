@@ -9,4 +9,5 @@ values = []
 for x in range(0, int(how_many_dice)):
   values.append(random.randint(min, int(max)))
   
+print
 print values
