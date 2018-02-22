@@ -14,10 +14,14 @@ while play_again:
 		values.append(random.randint(min, int(max)))
   
 	print
-	print values
+  
+	for x in values:
+		print str(x)
+
 	print
 
 	again = raw_input("Do you want to roll again? ")
-	print
 	if again.lower() == "no" or again.lower() == "n":
 		play_again = False
+	else:
+		print
