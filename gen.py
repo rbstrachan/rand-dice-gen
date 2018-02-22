@@ -16,7 +16,7 @@ while play_again:
 	print
   
 	for x in values:
-		print str(x)
+		print x
 
 	print
 
